@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="images/favicon-32x32.png">
+</head>
+<body>
+    <div class="main__con ">
+        <div class="side__box">
+            <div class="circle">
+                <img class="star" src="images/icon-star.svg" alt="">
+            </div> 
+        </div>
+        <div class="side__box">
+            <h1 class="header__text">How did we do?</h1>
+            <p class="para__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </div>
+        <div class="side__box check">
+            <div class="circle__check"><p>1</p></div>
+            <div class="circle__check"><p>2</p></div>
+            <div class="circle__check"><p>3</p></div>
+            <div class="circle__check"><p>4</p></div>
+            <div class="circle__check"><p>5</p></div>
+        </div>
+        <div class="side__box btn__con">
+            <button class="btn">SUBMIT</button>
+        </div>
+    </div>
+
+    <div class="side__con hidden">
+        <div class="box img">
+            <img class="pic" src="images/illustration-thank-you.svg" alt="">
+        </div>
+        <div class="box selected">
+            <div class="selected__box">
+                <p class="selected__text">You selected <span id="number">4</span> out of 5</p>
+            </div>
+        </div>
+        <div class="box text">
+            <h1 class="header__text">Thank you!</h1>
+            <p class="para__text center">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in</p>
+        </div>
+    </div>
+</body>
+</html>
